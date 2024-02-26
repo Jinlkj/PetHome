@@ -1,0 +1,14 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: pethome-service-ai-java
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url:  jdbc:mysql://localhost:3307/ChongAI
+    username: root
+    password: 132900124xjxj
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
